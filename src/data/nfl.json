@@ -1,0 +1,386 @@
+[
+  {
+    "className": "chi",
+    "fanCount": "12,092,476",
+    "id": "1",
+    "mascot": "Bears",
+    "mascotFacts": {
+      "number": "1,148,364"
+    },
+    "mythical": false,
+    "name": "Chicago",
+    "vs": true
+  },
+  {
+    "className": "min",
+    "fanCount": "5,642,181",
+    "id": "2",
+    "mascot": "Vikings",
+    "mascotFacts": {
+      "number": 0
+    },
+    "mythical": false,
+    "name": "Minnesota",
+    "vs": true
+  },
+  {
+    "className": "det",
+    "fanCount": "5,642,181",
+    "id": "3",
+    "mascot": "Lions",
+    "mascotFacts": {
+      "number": "20,000"
+    },
+    "mythical": false,
+    "name": "Detroit",
+    "vs": true
+  },
+  {
+    "className": "gb",
+    "fanCount": "16,024,215",
+    "id": "4",
+    "mascot": "Packers",
+    "mascotFacts": {
+      "number": "148,100"
+    },
+    "mythical": false,
+    "name": "Green Bay",
+    "vs": true
+  },
+  {
+    "className": "dal",
+    "fanCount": "25,758,315",
+    "id": "5",
+    "mascot": "Cowboys",
+    "mascotFacts": {
+      "number": "9,730"
+    },
+    "mythical": false,
+    "name": "Dallas",
+    "vs": true
+  },
+  {
+    "className": "phi",
+    "fanCount": "8,888,974",
+    "id": "6",
+    "mascot": "Eagles",
+    "mascotFacts": {
+      "number": "6,000,000"
+    },
+    "mythical": false,
+    "name": "Philadelphia",
+    "vs": true
+  },
+  {
+    "className": "nyg",
+    "fanCount": "11,690,931",
+    "id": "7",
+    "mascot": "Giants",
+    "mascotFacts": {
+      "number": 0
+    },
+    "mythical": true,
+    "name": "New York",
+    "vs": true
+  },
+  {
+    "className": "was",
+    "fanCount": "0",
+    "id": "8",
+    "mascot": "nope",
+    "mascotFacts": {
+      "number": "nope"
+    },
+    "mythical": false,
+    "name": "Washington",
+    "vs": true
+  },
+  {
+    "className": "tb",
+    "fanCount": "2,779,276",
+    "id": "9",
+    "mascot": "Buccaneers",
+    "mascotFacts": {
+      "number": "0"
+    },
+    "mythical": false,
+    "name": "Tampa Bay",
+    "vs": true
+  },
+  {
+    "className": "atl",
+    "fanCount": "6,009,492",
+    "id": "10",
+    "mascot": "Falcons",
+    "mascotFacts": {
+      "number": "7,000,000"
+    },
+    "mythical": false,
+    "name": "Atlanta",
+    "vs": false
+  },
+  {
+    "className": "car",
+    "fanCount": "7,034,101",
+    "id": "11",
+    "mascot": "Panthers",
+    "mascotFacts": {
+      "number": "294,890"
+    },
+    "mythical": false,
+    "name": "Carolina",
+    "vs": true
+  },
+  {
+    "className": "nola",
+    "fanCount": "11,930,352",
+    "id": "12",
+    "mascot": "Saints",
+    "mascotFacts": {
+      "number": "10,000"
+    },
+    "mythical": false,
+    "name": "New Orleans",
+    "vs": true
+  },
+  {
+    "className": "sf",
+    "fanCount": "12,383,284",
+    "id": "13",
+    "mascot": "49ers",
+    "mascotFacts": {
+      "number": "0"
+    },
+    "mythical": false,
+    "name": "San Francisco",
+    "vs": true
+  },
+  {
+    "className": "az",
+    "fanCount": "4,279,156",
+    "id": "14",
+    "mascot": "Cardinals",
+    "mascotFacts": {
+      "number": "120,000,000"
+    },
+    "mythical": false,
+    "name": "Arizona",
+    "vs": false
+  },
+  {
+    "className": "lar",
+    "fanCount": "2,327,583",
+    "id": "15",
+    "mascot": "Rams",
+    "mascotFacts": {
+      "number": "1,000,000,000"
+    },
+    "mythical": false,
+    "name": "Los Angeles",
+    "vs": false
+  },
+  {
+    "className": "sea",
+    "fanCount": "11,993,609",
+    "id": "16",
+    "mascot": "Seahawks",
+    "mascotFacts": {
+      "number": "100,000"
+    },
+    "mythical": false,
+    "name": "Seattle",
+    "vs": true
+  },
+  {
+    "className": "cin",
+    "fanCount": "3,517,293",
+    "id": "17",
+    "mascot": "Bengals",
+    "mascotFacts": {
+      "number": "2,500"
+    },
+    "mythical": false,
+    "name": "Cincinatti",
+    "vs": true
+  },
+  {
+    "className": "cle",
+    "fanCount": "3,738,293",
+    "id": "18",
+    "mascot": "Browns",
+    "mascotFacts": {
+      "number": "1,552,500"
+    },
+    "mythical": false,
+    "name": "Cleveland",
+    "vs": true
+  },
+  {
+    "className": "bal",
+    "fanCount": "6,927,791",
+    "id": "19",
+    "mascot": "Ravens",
+    "mascotFacts": {
+      "number": "20,000,000"
+    },
+    "mythical": false,
+    "name": "Baltimore",
+    "vs": false
+  },
+  {
+    "className": "pit",
+    "fanCount": "19,179.380",
+    "id": "20",
+    "mascot": "Steelers",
+    "mascotFacts": {
+      "number": "87,000"
+    },
+    "mythical": false,
+    "name": "Pittsburgh",
+    "vs": true
+  },
+  {
+    "className": "buf",
+    "fanCount": "2,533,838",
+    "id": "21",
+    "mascot": "Bills",
+    "mascotFacts": {
+      "number": "1"
+    },
+    "mythical": false,
+    "name": "Buffalo",
+    "vs": true
+  },
+  {
+    "className": "mia",
+    "fanCount": "6,637,669",
+    "id": "22",
+    "mascot": "Dolphins",
+    "mascotFacts": {
+      "number": "7,000,000"
+    },
+    "mythical": false,
+    "name": "Miami",
+    "vs": false
+  },
+  {
+    "className": "nyj",
+    "fanCount": "5,824,758",
+    "id": "23",
+    "mascot": "Jets",
+    "mascotFacts": {
+      "number": "20,000"
+    },
+    "mythical": false,
+    "name": "New York",
+    "vs": true
+  },
+  {
+    "className": "ne",
+    "fanCount": "20,653,722",
+    "id": "24",
+    "mascot": "Patriots",
+    "mascotFacts": {
+      "number": "180,000,000"
+    },
+    "mythical": false,
+    "name": "New England",
+    "vs": false
+  },
+  {
+    "className": "ind",
+    "fanCount": "6.689,254",
+    "id": "25",
+    "mascot": "Colts",
+    "mascotFacts": {
+      "number": "6,628,571"
+    },
+    "mythical": false,
+    "name": "Indianapolis",
+    "vs": true
+  },
+  {
+    "className": "jax",
+    "fanCount": "1,748,475",
+    "id": "26",
+    "mascot": "Jaguars",
+    "mascotFacts": {
+      "number": "15,000"
+    },
+    "mythical": false,
+    "name": "Jacksonville",
+    "vs": true
+  },
+  {
+    "className": "hou",
+    "fanCount": "6,484,945",
+    "id": "27",
+    "mascot": "Texans",
+    "mascotFacts": {
+      "number": "27,470,000"
+    },
+    "mythical": false,
+    "name": "Houston",
+    "vs": false
+  },
+  {
+    "className": "ten",
+    "fanCount": "2,737,981",
+    "id": "28",
+    "mascot": "Titans",
+    "mascotFacts": {
+      "number": "26"
+    },
+    "mythical": true,
+    "name": "Tennessee",
+    "vs": true
+  },
+  {
+    "className": "den",
+    "fanCount": "13,082,453",
+    "id": "29",
+    "mascot": "Broncos",
+    "mascotFacts": {
+      "number": "650,000"
+    },
+    "mythical": false,
+    "name": "Denver",
+    "vs": true
+  },
+  {
+    "className": "lac",
+    "fanCount": "4,700,430",
+    "id": "30",
+    "mascot": "Chargers",
+    "mascotFacts": {
+      "number": "1,000,000,000"
+    },
+    "mythical": false,
+    "name": "Los Angeles",
+    "vs": false
+  },
+  {
+    "className": "kc",
+    "fanCount": "4,568,973",
+    "id": "31",
+    "mascot": "Chiefs",
+    "mascotFacts": {
+      "number": "?"
+    },
+    "mythical": false,
+    "name": "Kansas City",
+    "vs": true
+  },
+  {
+    "className": "lav",
+    "fanCount": "10,099,869",
+    "id": "32",
+    "mascot": "Raiders",
+    "mascotFacts": {
+      "number": "0"
+    },
+    "mythical": false,
+    "name": "Las Vegas",
+    "vs": true
+  }
+]
