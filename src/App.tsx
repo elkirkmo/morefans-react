@@ -1,23 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import Team from './components/Team';
+import data from './data/nfl';
 import './App.css';
 
+interface Props {
+  className: string;
+  fanCount: string;
+  id: string;
+  mascot: string;
+  // mascotFacts: {
+  //   number: string;
+  // };
+  mythical: boolean;
+  name: string;
+  vs: boolean;
+}
+
 function App() {
+  const [currentTeam, setCurrentTeam] = useState(0);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>More Fans</h1>
+        <Team {...data[currentTeam]} />
+        {currentTeam > 0 && (
+          <button onClick={() => setCurrentTeam(currentTeam - 1)}>
+            Previous Team
+          </button>
+        )}
+        <button onClick={() => setCurrentTeam(currentTeam + 1)}>
+          Next Team
+        </button>
       </header>
     </div>
   );
