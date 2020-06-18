@@ -5,7 +5,7 @@ const data = [
     id: '1',
     mascot: 'Bears',
     mascotFacts: {
-      number: '1,148,364',
+      count: '1,148,364',
     },
     mythical: false,
     name: 'Chicago',
@@ -17,7 +17,7 @@ const data = [
     id: '2',
     mascot: 'Vikings',
     mascotFacts: {
-      number: '0',
+      count: '0',
     },
     mythical: false,
     name: 'Minnesota',
@@ -29,7 +29,7 @@ const data = [
     id: '3',
     mascot: 'Lions',
     mascotFacts: {
-      number: '20,000',
+      count: '20,000',
     },
     mythical: false,
     name: 'Detroit',
@@ -41,7 +41,7 @@ const data = [
     id: '4',
     mascot: 'Packers',
     mascotFacts: {
-      number: '148,100',
+      count: '148,100',
     },
     mythical: false,
     name: 'Green Bay',
@@ -53,7 +53,7 @@ const data = [
     id: '5',
     mascot: 'Cowboys',
     mascotFacts: {
-      number: '9,730',
+      count: '9,730',
     },
     mythical: false,
     name: 'Dallas',
@@ -65,7 +65,7 @@ const data = [
     id: '6',
     mascot: 'Eagles',
     mascotFacts: {
-      number: '6,000,000',
+      count: '6,000,000',
     },
     mythical: false,
     name: 'Philadelphia',
@@ -77,7 +77,7 @@ const data = [
     id: '7',
     mascot: 'Giants',
     mascotFacts: {
-      number: '100,000',
+      count: '100,000',
     },
     mythical: true,
     name: 'New York',
@@ -89,7 +89,7 @@ const data = [
     id: '8',
     mascot: 'nope',
     mascotFacts: {
-      number: 'nope',
+      count: 'nope',
     },
     mythical: false,
     name: 'Washington',
@@ -101,7 +101,7 @@ const data = [
     id: '9',
     mascot: 'Buccaneers',
     mascotFacts: {
-      number: '0',
+      count: '0',
     },
     mythical: false,
     name: 'Tampa Bay',
@@ -113,7 +113,7 @@ const data = [
     id: '10',
     mascot: 'Falcons',
     mascotFacts: {
-      number: '7,000,000',
+      count: '7,000,000',
     },
     mythical: false,
     name: 'Atlanta',
@@ -125,7 +125,7 @@ const data = [
     id: '11',
     mascot: 'Panthers',
     mascotFacts: {
-      number: '294,890',
+      count: '294,890',
     },
     mythical: false,
     name: 'Carolina',
@@ -137,7 +137,7 @@ const data = [
     id: '12',
     mascot: 'Saints',
     mascotFacts: {
-      number: '10,000',
+      count: '10,000',
     },
     mythical: false,
     name: 'New Orleans',
@@ -149,7 +149,7 @@ const data = [
     id: '13',
     mascot: '49ers',
     mascotFacts: {
-      number: '0',
+      count: '0',
     },
     mythical: false,
     name: 'San Francisco',
@@ -161,7 +161,7 @@ const data = [
     id: '14',
     mascot: 'Cardinals',
     mascotFacts: {
-      number: '120,000,000',
+      count: '120,000,000',
     },
     mythical: false,
     name: 'Arizona',
@@ -173,7 +173,7 @@ const data = [
     id: '15',
     mascot: 'Rams',
     mascotFacts: {
-      number: '1,000,000,000',
+      count: '1,000,000,000',
     },
     mythical: false,
     name: 'Los Angeles',
@@ -185,7 +185,7 @@ const data = [
     id: '16',
     mascot: 'Seahawks',
     mascotFacts: {
-      number: '100,000',
+      count: '100,000',
     },
     mythical: false,
     name: 'Seattle',
@@ -197,7 +197,7 @@ const data = [
     id: '17',
     mascot: 'Bengals',
     mascotFacts: {
-      number: '2,500',
+      count: '2,500',
     },
     mythical: false,
     name: 'Cincinatti',
@@ -209,7 +209,7 @@ const data = [
     id: '18',
     mascot: 'Browns',
     mascotFacts: {
-      number: '1,552,500',
+      count: '1,552,500',
     },
     mythical: false,
     name: 'Cleveland',
@@ -221,7 +221,7 @@ const data = [
     id: '19',
     mascot: 'Ravens',
     mascotFacts: {
-      number: '20,000,000',
+      count: '20,000,000',
     },
     mythical: false,
     name: 'Baltimore',
@@ -233,7 +233,7 @@ const data = [
     id: '20',
     mascot: 'Steelers',
     mascotFacts: {
-      number: '87,000',
+      count: '87,000',
     },
     mythical: false,
     name: 'Pittsburgh',
@@ -245,7 +245,7 @@ const data = [
     id: '21',
     mascot: 'Bills',
     mascotFacts: {
-      number: '1',
+      count: '1',
     },
     mythical: false,
     name: 'Buffalo',
@@ -257,7 +257,7 @@ const data = [
     id: '22',
     mascot: 'Dolphins',
     mascotFacts: {
-      number: '7,000,000',
+      count: '7,000,000',
     },
     mythical: false,
     name: 'Miami',
@@ -269,7 +269,7 @@ const data = [
     id: '23',
     mascot: 'Jets',
     mascotFacts: {
-      number: '20,000',
+      count: '20,000',
     },
     mythical: false,
     name: 'New York',
@@ -281,7 +281,7 @@ const data = [
     id: '24',
     mascot: 'Patriots',
     mascotFacts: {
-      number: '180,000,000',
+      count: '180,000,000',
     },
     mythical: false,
     name: 'New England',
@@ -293,7 +293,7 @@ const data = [
     id: '25',
     mascot: 'Colts',
     mascotFacts: {
-      number: '6,628,571',
+      count: '6,628,571',
     },
     mythical: false,
     name: 'Indianapolis',
@@ -305,7 +305,7 @@ const data = [
     id: '26',
     mascot: 'Jaguars',
     mascotFacts: {
-      number: '15,000',
+      count: '15,000',
     },
     mythical: false,
     name: 'Jacksonville',
@@ -317,7 +317,7 @@ const data = [
     id: '27',
     mascot: 'Texans',
     mascotFacts: {
-      number: '27,470,000',
+      count: '27,470,000',
     },
     mythical: false,
     name: 'Houston',
@@ -329,7 +329,7 @@ const data = [
     id: '28',
     mascot: 'Titans',
     mascotFacts: {
-      number: '26',
+      count: '26',
     },
     mythical: true,
     name: 'Tennessee',
@@ -341,7 +341,7 @@ const data = [
     id: '29',
     mascot: 'Broncos',
     mascotFacts: {
-      number: '650,000',
+      count: '650,000',
     },
     mythical: false,
     name: 'Denver',
@@ -353,7 +353,7 @@ const data = [
     id: '30',
     mascot: 'Chargers',
     mascotFacts: {
-      number: '1,000,000,000',
+      count: '1,000,000,000',
     },
     mythical: false,
     name: 'Los Angeles',
@@ -365,7 +365,7 @@ const data = [
     id: '31',
     mascot: 'Chiefs',
     mascotFacts: {
-      number: '?',
+      count: '?',
     },
     mythical: false,
     name: 'Kansas City',
@@ -377,7 +377,7 @@ const data = [
     id: '32',
     mascot: 'Raiders',
     mascotFacts: {
-      number: '0',
+      count: '0',
     },
     mythical: false,
     name: 'Las Vegas',

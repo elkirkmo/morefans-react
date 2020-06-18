@@ -3,37 +3,27 @@ import Team from './components/Team';
 import data from './data/nfl';
 import './App.css';
 
-interface Props {
-  className: string;
-  fanCount: string;
-  id: string;
-  mascot: string;
-  // mascotFacts: {
-  //   number: string;
-  // };
-  mythical: boolean;
-  name: string;
-  vs: boolean;
-}
-
-function App() {
+const App = () => {
   const [currentTeam, setCurrentTeam] = useState(0);
+
+  useEffect(() => {
+    if (currentTeam === data.length - 1) setCurrentTeam(0);
+  }, [currentTeam]);
   return (
-    <div className="App">
+    <div className="App" id="nfl">
       <header>
         <h1>More Fans</h1>
-        <Team {...data[currentTeam]} />
-        {currentTeam > 0 && (
-          <button onClick={() => setCurrentTeam(currentTeam - 1)}>
-            Previous Team
-          </button>
-        )}
-        <button onClick={() => setCurrentTeam(currentTeam + 1)}>
-          Next Team
-        </button>
       </header>
+      {currentTeam > 0 && (
+        <button onClick={() => setCurrentTeam(currentTeam - 1)}>
+          Previous Team
+        </button>
+      )}
+      <Team {...data[currentTeam]} />
+
+      <button onClick={() => setCurrentTeam(currentTeam + 1)}>Next Team</button>
     </div>
   );
-}
+};
 
 export default App;

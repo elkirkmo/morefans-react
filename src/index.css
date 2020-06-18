@@ -11,3 +11,140 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main {
+  width: 100%;
+  height: auto;
+  padding: 10%;
+}
+footer {
+  position: relative;
+  bottom: 0;
+}
+#nfl .chi {
+  background-color: #0b162a;
+  color: #c83803;
+}
+#nfl .min {
+  background-color: #4f2683;
+  color: #ffc62f;
+}
+#nfl .det {
+  background-color: #0076b6;
+  color: #b0b7bc;
+}
+#nfl .gb {
+  background-color: #203731;
+  color: #ffb612;
+}
+#nfl .dal {
+  background-color: #002244;
+  color: #b0b7bc;
+}
+#nfl .phi {
+  background-color: #004c54;
+  color: #ffffff;
+}
+#nfl .nyg {
+  background-color: #0b2265;
+  color: #a71930;
+}
+#nfl .was {
+  background-color: #5a1414;
+  color: #ffb612;
+}
+#nfl .tb {
+  background-color: #d50a0a;
+  color: #34302b;
+}
+#nfl .atl {
+  background-color: #a71930;
+  color: #000000;
+}
+#nfl .car {
+  background-color: #0085ca;
+  color: #000000;
+}
+#nfl .nola {
+  background-color: #000000;
+  color: #d3bc8d;
+}
+#nfl .sf {
+  background-color: #aa0000;
+  color: #b3995d;
+}
+#nfl .az {
+  background-color: #97233f;
+  color: #ffffff;
+}
+#nfl .lar {
+  background-color: #002244;
+  color: #b3995d;
+}
+#nfl .sea {
+  background-color: #69be28;
+  color: #002244;
+}
+#nfl .cin {
+  background-color: #fb4f14;
+  color: #000000;
+}
+#nfl .cle {
+  background-color: #ff3c00;
+  color: #311d00;
+}
+#nfl .bal {
+  background-color: #241773;
+  color: #9e7c0c;
+}
+#nfl .pit {
+  background-color: #ffb612;
+  color: #000000;
+}
+#nfl .buf {
+  background-color: #c60c30;
+  color: #00338d;
+}
+#nfl .mia {
+  background-color: #008e97;
+  color: #f58220;
+}
+#nfl .nyj {
+  background-color: #203731;
+  color: #ffffff;
+}
+#nfl .ne {
+  background-color: #002244;
+  color: #c60c30;
+}
+#nfl .ind {
+  background-color: #002c5f;
+  color: #ffffff;
+}
+#nfl .jax {
+  background-color: #006778;
+  color: #9f792c;
+}
+#nfl .hou {
+  background-color: #a71930;
+  color: #03202f;
+}
+#nfl .ten {
+  background-color: #4b92db;
+  color: #002244;
+}
+#nfl .den {
+  background-color: #002244;
+  color: #fb4f14;
+}
+#nfl .lac {
+  background-color: #0073cf;
+  color: #ffb612;
+}
+#nfl .kc {
+  background-color: #e31837;
+  color: #ffb612;
+}
+#nfl .oak {
+  background-color: #000000;
+  color: #a5acaf;
+}

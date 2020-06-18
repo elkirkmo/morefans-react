@@ -5,9 +5,9 @@ interface Props {
   fanCount: string;
   id: string;
   mascot: string;
-  // mascotFacts: {
-  //   number: string;
-  // };
+  mascotFacts: {
+    count: string;
+  };
   mythical: boolean;
   name: string;
   vs: boolean;
@@ -18,7 +18,7 @@ const Team: FunctionComponent<Props> = ({
   fanCount,
   id,
   mascot,
-  // mascotFacts,
+  mascotFacts,
   mythical,
   name,
   vs,
@@ -29,9 +29,9 @@ const Team: FunctionComponent<Props> = ({
       <p>Real-life Fans</p>
       <p>{fanCount}</p>
       <h3>Mascot</h3>
-      {mythical && <p>not real</p>}
+      {/* {mythical && <p>not real</p>} */}
       <p>{mascot}</p>
-      {/* <p>{mascotFacts.number}</p> */}
+      <p>{mascotFacts.count}</p>
     </div>
   );
 };
