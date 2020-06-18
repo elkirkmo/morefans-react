@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the application 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+    id="nfl"
+  >
+    <header>
+      <h1>
+        More Fans
+      </h1>
+    </header>
+    <div
+      class="chi"
+      id="1"
+    >
+      <h2>
+        Chicago
+      </h2>
+      <p>
+        Real-life Fans
+      </p>
+      <p>
+        12,092,476
+      </p>
+      <h3>
+        Mascot
+      </h3>
+      <p>
+        Bears
+      </p>
+      <p>
+        1,148,364
+      </p>
+    </div>
+    <button>
+      Next Team
+    </button>
+  </div>
+</DocumentFragment>
+`;
